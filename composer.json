@@ -1,0 +1,24 @@
+{
+    "name": "wenming/composer-car",
+    "description": "This is WenMing first time to make composer package by himself",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wenming",
+            "email": "736038880@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":  "^5.3|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape",
+            "Ford\\Fusion\\": "src/Ford/Fusion",
+            "Ford\\Focus\\": "src/Ford/Focus",
+            "Ford\\Fiesta\\": "src/Ford/Fiesta"
+        }
+    }
+}
